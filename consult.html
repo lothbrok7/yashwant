@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult Form</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3ef29b;
+  padding: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #0c8158;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 5px;
+  color: antiquewhite;
+}
+
+.gender>label,input{
+    display: inline;
+}
+
+label,
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 400px;
+  
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+</style>
+
+</head>
+<body>
+   <u><h1>Doctor Consultation Form</h1></u> 
+  <form id="consultationForm">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <label for="dob">date of birth</label>
+    <input type="date" name="dob" id="">
+    <div class="gender">
+        <label for="sex">Male</label>
+    <input type="radio" name="sex" id="sex">
+    <label for="sex">Female</label>
+    <input type="radio" name="sex" id="sex">
+    <label for="sex">transgender</label>
+    <input type="radio" name="sex" id="sex">
+     <label for="sex">prefer not to say</label>
+    <input type="radio" name="sex" id="sex">
+    </div>
+    <label for="weight">Weight</label>
+    <input type="number">
+    <label for="hieght">Hieght</label>
+    <input type="number" name="" id="">
+    <label for="">blood group</label>
+    <input type="text">
+    <label for="">prescription(if any)</label>
+    <input type="file" name="" id="">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="specialization">Specialization:</label>
+    <select id="specialization" name="specialization" required>
+      <option value="">Select Specialization</option>
+      <option value="cardiology">Cardiology</option>
+      <option value="dermatology">Dermatology</option>
+      <option value="gastroenterology">Gastroenterology</option>
+      <option value="neurology">Neurology</option>
+    </select>
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time" name="time" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+    <input type="submit" value="Book Consultation">
+  </form>
+
+</body>
+</html>

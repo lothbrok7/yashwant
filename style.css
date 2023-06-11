@@ -1,0 +1,77 @@
+.logo>img{
+    margin-left: 542px;
+width: 397px;
+height: 100.95px;
+}
+.user{
+ float: right;
+ margin-top: 34px;
+margin-right: 70px;
+}
+
+.user>button{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar{
+
+    background-color: #0c8158;
+    margin-top: 13px;
+    height: 49.2px;
+
+}
+.navbar>button{
+    margin-right: 20px;
+    padding: 10px;
+    /* border-radius: 20px; */
+margin-top: 5px;
+width: 135px;
+}
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .left{
+    background-color: grey;
+    
+  }

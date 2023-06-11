@@ -1,0 +1,48 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(205, 248, 255);
+}
+.main{
+    display: flex;
+}
+.redbox{
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+    background-color: rgb(255, 0, 111);
+    margin-left: 78px;
+padding-left: 17px;
+padding-right: 15px;
+padding-bottom: 87px;
+    
+}
+
+.leftmain{
+    color: rgb(249, 247, 244);
+    margin-top: 145px;
+    /* padding-left: 206px; */
+    width: 816.283px;
+}
+.container>input,button{
+    display: block;
+    padding-top: 12px;
+    margin-top: 7px ;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.container{
+    background-color: white;
+    padding-top: 4px;
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+border-radius: 5px;
+}
+
+.container>button{
+    background-color: rgba(46, 211, 140, 0.997);
+}
+.rightnav{
+    margin-top: 85px;
+}
